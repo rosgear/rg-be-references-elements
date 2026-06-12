@@ -91,7 +91,7 @@ class Form extends FormController
         $window->layout = 'fit';
         $window
             ->setNamespaceJS('Rg.be.references.elements')
-            ->addRequire('Rg.be.references.elements.PropertiesController' . (RG_DEBUG ? '-debug' : ''))
+            ->addRequire('Rg.be.references.elements.PropertiesController' . (GE_DEBUG ? '-debug' : ''))
             ->addRequire('Ge.view.form.field.Field')
             ->addRequire('Ge.view.grid.property.Grid');
         return $window;
