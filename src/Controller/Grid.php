@@ -177,7 +177,7 @@ class Grid extends GridController
             )
         ]);
         $tab
-            ->addCss(RG_DEBUG ? '/grid.css' : '/grid.min.css')
+            ->addCss(GE_DEBUG ? '/grid.css' : '/grid.min.css')
             ->addRequire('Ge.view.grid.column.Switch');
         return $tab;
     }
