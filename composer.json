@@ -1,7 +1,7 @@
 {
     "name": "rosgear/rg-be-references-elements",
-    "description": "Extension (module) \"Interface elements\" for the GePanel Control Panel",
-    "keywords": ["rosgear", "gepanel", "extension (module)"],
+    "description": "Module extension \"Interface elements\" for the GePanel Control Panel",
+    "keywords": ["rosgear", "gepanel", "module", "extension"],
     "homepage": "https://rosgear.ru/component/rg-be-references-elements/",
     "type": "component",
     "license": "MIT",
