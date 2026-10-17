@@ -15,18 +15,20 @@
     <div class="g-help-screen g-help-screen--hidable">
         <img src="<?= $assetsUrl, '/help/form.png' ?>" />
     </div>
-    <p>The form appears after clicking the <b>"Add"</b> button on the elements list toolbar or selecting the <b>"Edit"</b> item from the context menu of the selected entry.</p>
+    <p>The form appears after clicking the <b>"Add"</b> button on <a href="<?= $url('grid') ?>">the elements list</a> toolbar or selecting the <b>"Edit"</b> item from the context menu of the selected entry.</p>
     <h2>Form tabs</h2>
     <h3>Form tab "Attributes"</h3>
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua and has the following fields:</p>
+    <p>The tab displays the main attributes of the interface element using the following fields:</p>
     <ul class="g-help-list">
-        <li><b>Name.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Element type.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Icon.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Form field.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Enabled</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Name.</b> The name (in English) of the interface element;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Element type.</b> The interface element type is defined as an xtype in Sencha ExtJS.<br>
+        An xtype is a symbolic name used to identify and configure components within the interface. This allows for easy management and instantiation of various interface elements using their xtype, simplifying the development and code maintenance process;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Icon.</b> The URL of the icon file;</li>
+        <li><span class="g-help-fld g-help-fld_checkbox"></span> <b>Form field.</b> If checked, this indicates that the corresponding interface element functions as a form field.<br>
+        Checking this flag allows the system to recognize the element as part of a form, which affects its behavior and data processing. This entails visual and functional changes, such as making the field mandatory, enabling input validation, and displaying the field in the form summary;</li>
+        <li><span class="g-help-fld g-help-fld_checkbox"></span> <b>Available.</b> If checked, the interface element is available for use.</li>
     </ul>
 
     <h3>Form tab "Properties"</h3>
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    <p>This tab is designed for viewing and editing interface element properties. Properties available for addition are loaded from the <a href="<?= $url('index', 'extension:rg.be.references.properties') ?>">"Interface Element Properties" reference</a>.</p>
 </article>
